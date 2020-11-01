@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86d0641f-2c5b-4f70-84f8-62fc731c4c2a" name="Default Changelist" comment="noting">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance_Python/python_text_speech.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance_Python/tempCodeRunnerFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance_Python/threading_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance_Python/threading_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance_Python/threading_newWay_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hacking/socket_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/1_openCV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/face_rec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/faces/bill gates.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/faces/donald trump.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/faces/elon musk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/faces/jeff bezos.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/faces/obama.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/face_rec/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV/rich.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/5_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/request_threading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/request_threading0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/richi-rich.jpg" afterDir="false" />
+    <list default="true" id="86d0641f-2c5b-4f70-84f8-62fc731c4c2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/1_bs4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/1_bs4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/2_bs4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/cms_scrape.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hacking/networking/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hacking/networking/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hacking/networking/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hacking/networking/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request/1_req.py" beforeDir="false" afterPath="$PROJECT_DIR$/Request/1_req.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request/3_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Request/3_Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request/webseries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Request/webseries.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python_Programs" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -49,12 +33,17 @@
     <option name="defaultAccountId" value="8b669d3b-09fe-4d6a-8ed5-bb019241092d" />
   </component>
   <component name="ProjectId" id="1bIRweRXw0BQj12Gwh6a51BYCyA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -69,7 +58,7 @@
       <recent name="$PROJECT_DIR$/Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.word_list_generator">
+  <component name="RunManager" selected="Python.1_bs4">
     <configuration name="1_webdrivers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="_" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,27 +143,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="_" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/networking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/networking/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="word_list_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="_" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_bs4" />
         <item itemvalue="Python.word_list_generator" />
         <item itemvalue="Python.1_webdrivers" />
         <item itemvalue="Python.encryption_2" />
         <item itemvalue="Python.encryption_3" />
-        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -272,33 +240,50 @@
       <option name="presentableId" value="Default" />
       <updated>1588317860901</updated>
     </task>
+    <task id="LOCAL-00001" summary="files added">
+      <created>1604206614806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604206614806</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="files added" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="71" key="#1_bs4" timestamp="1604208417941">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#1_bs4/0.0.1440.900@0.0.1440.900" timestamp="1604208417941" />
     <state x="489" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596695835146">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="489" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1596695835146" />
-    <state x="296" y="52" key="CommitChangelistDialog2" timestamp="1604206470705">
+    <state x="296" y="52" key="CommitChangelistDialog2" timestamp="1604206614472">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="296" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604206470705" />
-    <state width="1281" height="234" key="GridCell.Tab.0.bottom" timestamp="1599908608045">
+    <state x="296" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604206614472" />
+    <state width="1419" height="234" key="GridCell.Tab.0.bottom" timestamp="1604216586182">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1281" height="234" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599908608045" />
-    <state width="1281" height="234" key="GridCell.Tab.0.center" timestamp="1599908608043">
+    <state width="1419" height="234" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604216586182" />
+    <state width="1419" height="234" key="GridCell.Tab.0.center" timestamp="1604216586179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1281" height="234" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599908608043" />
-    <state width="1281" height="234" key="GridCell.Tab.0.left" timestamp="1599908608043">
+    <state width="1419" height="234" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604216586179" />
+    <state width="1419" height="234" key="GridCell.Tab.0.left" timestamp="1604216586179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1281" height="234" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599908608043" />
-    <state width="1281" height="234" key="GridCell.Tab.0.right" timestamp="1599908608044">
+    <state width="1419" height="234" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604216586179" />
+    <state width="1419" height="234" key="GridCell.Tab.0.right" timestamp="1604216586182">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1281" height="234" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599908608044" />
+    <state width="1419" height="234" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604216586182" />
     <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1599885472455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
