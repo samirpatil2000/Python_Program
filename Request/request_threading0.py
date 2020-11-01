@@ -40,12 +40,12 @@ def check_status(img_url):
     print(r.status_code)
 
 
-# with concurrent.futures.ThreadPoolExecutor() as executor:
-#     executor.map(check_status, img_urls)
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor.map(check_status, img_urls)
 
-#
-# for i in img_urls:
-#     download_image(i)
+
+for i in img_urls:
+    download_image(i)
 
 
 downloadimagelink='https://unsplash.com/photos/JIHE0V8VniI/download?force=true'
