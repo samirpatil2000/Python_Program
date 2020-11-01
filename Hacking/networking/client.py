@@ -2,11 +2,11 @@ import socket
 
 
 HEADER= 64
-PORT= 5050
+PORT= 8080
 FORMAT='utf-8'
 DISCONNECT_MESSAGE='!DISCONNECT'
-
-SERVER='192.168.43.247'
+SERVER= socket.gethostbyname(socket.gethostname())
+#SERVER='192.168.43.247'
 ADDR = (SERVER,PORT)
 
 
@@ -23,7 +23,7 @@ def send(msg):
     client.send(message)
     print(client.recv(2048))
 
-send("Hello World")
+send("Hello Samir Patil")
 # print("a = Message \n x = Disconnect ")
 # user=input("Enter Message")
 # send(user)
@@ -32,6 +32,14 @@ send("Hello World")
 #     if (user=='a'):
 #         msg=input("Enter Message :")
 #         send(msg)
+print("Enter 0 for quite\n")
+for _ in range(0,1000):
+    q=int(input("Option:"))
+    while q != 0:
+        msg=input("Your Message :\n")
+        send(msg)
+    else:
+        break
 
 
 

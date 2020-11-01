@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-url='https://curiosityishere.pythonanywhere.com/'
+url='https://curiosityishere.pythonanywhere.com/login/'
 #url='https://www.codechef.com'
 LOGIN_ROUTE = 'login/'
 
@@ -9,17 +9,18 @@ headers={  #this is stop automation
     'origin':url, 'referer':url+LOGIN_ROUTE
 }
 s = requests.session()
-csrf_token = s.get(url).cookies['csrftoken']
+s.get(url)
+csrf_token = s.cookies['csrftoken']
+print(csrf_token)
 
 login_data = {
-'csrftoken':csrf_token,
+'csrfmiddlewaretoken':csrf_token,
 'username': 'Samir',
 'password': 'Samir@123',
 
-
 }
 
-login_req=s.post(url+LOGIN_ROUTE,data=login_data)
+login_req=s.post(url,data=login_data)
 print(login_req.status_code)
 cookies=login_req.cookies
 print(cookies)
