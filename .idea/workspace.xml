@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86d0641f-2c5b-4f70-84f8-62fc731c4c2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/1_bs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeautifulSoup/1_bs4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeautifulSoup/2_bs4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeautifulSoup/cms_scrape.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeautifulSoup/sample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/3_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/4_beautyTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Request/3_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Request/3_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Request/5_login.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +56,83 @@
       <recent name="$PROJECT_DIR$/Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_bs4">
-    <configuration name="1_webdrivers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="_" />
+  <component name="RunManager" selected="Python.5_login">
+    <configuration name="3_Login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hacking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Request" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/1_webdrivers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Request/3_Login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hacking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BeautifulSoup" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoup/3_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_beautyTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hacking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BeautifulSoup" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoup/4_beautyTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hacking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Request" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Request/5_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,48 +154,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="encryption_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="_" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/encryption_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="encryption_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="_" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/encryption_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1_bs4" />
+        <item itemvalue="Python.5_login" />
+        <item itemvalue="Python.3_Login" />
+        <item itemvalue="Python.4_beautyTest" />
+        <item itemvalue="Python.3_login" />
         <item itemvalue="Python.word_list_generator" />
-        <item itemvalue="Python.1_webdrivers" />
-        <item itemvalue="Python.encryption_2" />
-        <item itemvalue="Python.encryption_3" />
       </list>
     </recent_temporary>
   </component>
@@ -247,43 +266,71 @@
       <option name="project" value="LOCAL" />
       <updated>1604206614806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done with beautiful soup">
+      <created>1604217116547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604217116547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="files added" />
+    <MESSAGE value="done with beautiful soup" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with beautiful soup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="71" key="#1_bs4" timestamp="1604208417941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="71" key="#1_bs4/0.0.1440.900@0.0.1440.900" timestamp="1604208417941" />
+    <state x="437" y="71" key="#3_Login" timestamp="1604251492871">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#3_Login/0.0.1440.900@0.0.1440.900" timestamp="1604251492871" />
+    <state x="437" y="71" key="#3_login" timestamp="1604217670906">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#3_login/0.0.1440.900@0.0.1440.900" timestamp="1604217670906" />
+    <state x="437" y="71" key="#4_beautyTest" timestamp="1604218123436">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#4_beautyTest/0.0.1440.900@0.0.1440.900" timestamp="1604218123436" />
+    <state x="437" y="71" key="#5_login" timestamp="1604254596447">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#5_login/0.0.1440.900@0.0.1440.900" timestamp="1604254596447" />
     <state x="489" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596695835146">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="489" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1596695835146" />
-    <state x="296" y="52" key="CommitChangelistDialog2" timestamp="1604206614472">
+    <state x="475" y="0" key="CommitChangelistDialog2" timestamp="1604217116255">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="296" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604206614472" />
-    <state width="1419" height="234" key="GridCell.Tab.0.bottom" timestamp="1604216586182">
+    <state x="475" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604217116255" />
+    <state width="1419" height="246" key="GridCell.Tab.0.bottom" timestamp="1604254706685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604216586182" />
-    <state width="1419" height="234" key="GridCell.Tab.0.center" timestamp="1604216586179">
+    <state width="1419" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604254706685" />
+    <state width="1419" height="234" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604220942179" />
+    <state width="1419" height="246" key="GridCell.Tab.0.center" timestamp="1604254706684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604216586179" />
-    <state width="1419" height="234" key="GridCell.Tab.0.left" timestamp="1604216586179">
+    <state width="1419" height="246" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604254706684" />
+    <state width="1419" height="234" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604220942178" />
+    <state width="1419" height="246" key="GridCell.Tab.0.left" timestamp="1604254706683">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604216586179" />
-    <state width="1419" height="234" key="GridCell.Tab.0.right" timestamp="1604216586182">
+    <state width="1419" height="246" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604254706683" />
+    <state width="1419" height="234" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604220942178" />
+    <state width="1419" height="246" key="GridCell.Tab.0.right" timestamp="1604254706684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604216586182" />
+    <state width="1419" height="246" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604254706684" />
+    <state width="1419" height="234" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604220942179" />
     <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1599885472455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -300,10 +347,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1599885472454" />
-    <state x="390" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1604206319637">
+    <state x="390" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1604230980557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="390" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1604206319637" />
+    <state x="390" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1604230980557" />
     <state x="442" y="190" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604206421817">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

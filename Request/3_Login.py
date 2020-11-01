@@ -1,41 +1,44 @@
 import requests
 from bs4 import BeautifulSoup
-url='https://curiosityishere.pythonanywhere.com/login/'
-#url='https://www.codechef.com'
+
+
+# url='https://curiosityishere.pythonanywhere.com/'
+url='http://127.0.0.1:8000/'
+
 LOGIN_ROUTE = 'login/'
 
-headers={  #this is stop automation
+HEADERS={  #this is stop automation
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:80.0) Gecko/20100101 Firefox/80.0',
     'origin':url, 'referer':url+LOGIN_ROUTE
 }
 s = requests.session()
-s.get(url)
-csrf_token = s.cookies['csrftoken']
-print(csrf_token)
+csrf_token = s.get(url).cookies['csrftoken']
+# print(csrf_token)
 
-login_data = {
-'csrfmiddlewaretoken':csrf_token,
-'username': 'Samir',
-'password': 'Samir@123',
+USERNAME='Samir'
+PASSWORD='Samir@123'
 
+LOGIN_DATA = {
+    'username': USERNAME,
+    'password': PASSWORD,
+    'csrfmiddlewaretoken':csrf_token,
 }
 
-login_req=s.post(url,data=login_data)
-print(login_req.status_code)
-cookies=login_req.cookies
-print(cookies)
+login_redirect=s.post(url+LOGIN_ROUTE,headers=HEADERS,data=LOGIN_DATA)
 
-# with requests.Session() as a:
-#     r=a.get(url,headers=headers)
-#     soup=BeautifulSoup(r.content,'html5lib')
-#     # print(r.content)
-#     # print(r.text)
-#     login_data['csrfmiddlewaretoken']=soup.find('input',attrs={'name':'csrfmiddlewaretoken'})['value']
-#     r=a.post(url,data=login_data,headers=headers)
-#     print(r.content)
-#     print(r.text)
-#     print(r.status_code)
+# print(login_redirect)
+# print(login_redirect.status_code)
+# cookies=login_redirect.cookies
+# print(cookies)
+# print(login_redirect.content)
 
-# this is giving erro
+redirect_url=s.get(url+'U/profile/').text
 
+soup=BeautifulSoup(redirect_url,'lxml')
+class_name=soup.find('div',class_='container')
+name=soup.find('h2',attrs={'style':"margin-top:30px;"}).text
 
+if name is not None:
+    print(" Password Cracked ..! ",USERNAME," and ",PASSWORD)
+else:
+    print(" Something Went Wrong ")
