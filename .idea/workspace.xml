@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86d0641f-2c5b-4f70-84f8-62fc731c4c2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hacking/brute_force_django.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hacking/brute_force_django_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/prime_factors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance_Python/palandrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance_Python/prime_factors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance_Python/step_CP/1_array_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blogs/1_brute_force_django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectEuler/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectEuler/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectEuler/3_sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request/request_threading0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Request/request_threading0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,42 +48,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hacking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Blogs" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Hacking" />
-      <recent name="$PROJECT_DIR$/Basic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Basic" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Blogs" />
+      <recent name="$PROJECT_DIR$/Hacking" />
+      <recent name="$PROJECT_DIR$/Basic" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.brute_force_django_threads">
-    <configuration name="3_Login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Hacking" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Request" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Request/3_Login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4_beautyTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.prime_factors">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hacking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BeautifulSoup" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectEuler" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoup/4_beautyTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projectEuler/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,19 +84,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hacking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Request" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectEuler" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Request/5_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projectEuler/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hacking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectEuler" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projectEuler/3_sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,19 +147,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="brute_force_django" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="palandrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hacking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hacking" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advance_Python" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hacking/brute_force_django.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advance_Python/palandrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +168,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="brute_force_django_threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="primeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hacking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hacking" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advance_Python" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hacking/brute_force_django_threads.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advance_Python/primeNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.brute_force_django_threads" />
-        <item itemvalue="Python.brute_force_django" />
-        <item itemvalue="Python.3_Login" />
-        <item itemvalue="Python.5_login" />
-        <item itemvalue="Python.4_beautyTest" />
+        <item itemvalue="Python.3_sol" />
+        <item itemvalue="Python.primeNumber" />
+        <item itemvalue="Python.palandrome" />
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604254916467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="done with bruteforce and threading with csrf tokens">
+      <created>1604257784657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604257784657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,13 +301,30 @@
     <MESSAGE value="files added" />
     <MESSAGE value="done with beautiful soup" />
     <MESSAGE value="done with request and beautiful soup" />
-    <option name="LAST_COMMIT_MESSAGE" value="done with request and beautiful soup" />
+    <MESSAGE value="done with bruteforce and threading with csrf tokens" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with bruteforce and threading with csrf tokens" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="71" key="#1_array_sum" timestamp="1605899749869">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#1_array_sum/0.0.1440.900@0.0.1440.900" timestamp="1605899749869" />
+    <state x="437" y="71" key="#1_brute_force_django" timestamp="1604406388433">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#1_brute_force_django/0.0.1440.900@0.0.1440.900" timestamp="1604406388433" />
     <state x="437" y="71" key="#1_bs4" timestamp="1604208417941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="71" key="#1_bs4/0.0.1440.900@0.0.1440.900" timestamp="1604208417941" />
+    <state x="437" y="71" key="#2" timestamp="1606054390887">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#2/0.0.1440.900@0.0.1440.900" timestamp="1606054390887" />
+    <state x="437" y="71" key="#3" timestamp="1606130748445">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#3/0.0.1440.900@0.0.1440.900" timestamp="1606130748445" />
     <state x="437" y="71" key="#3_Login" timestamp="1604251492871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -303,6 +333,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="71" key="#3_login/0.0.1440.900@0.0.1440.900" timestamp="1604217670906" />
+    <state x="437" y="71" key="#3_sol" timestamp="1606193992379">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#3_sol/0.0.1440.900@0.0.1440.900" timestamp="1606193992379" />
     <state x="437" y="71" key="#4_beautyTest" timestamp="1604218123436">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -311,6 +345,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="71" key="#5_login/0.0.1440.900@0.0.1440.900" timestamp="1604254596447" />
+    <state x="320" y="115" key="#Notifications" timestamp="1604299080161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1604299080161" />
     <state x="437" y="71" key="#brute_force_django" timestamp="1604255669665">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -319,73 +357,77 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="71" key="#brute_force_django_threads/0.0.1440.900@0.0.1440.900" timestamp="1604257297081" />
-    <state x="489" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596695835146">
+    <state x="437" y="71" key="#palandrome" timestamp="1606163966541">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="489" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1596695835146" />
-    <state x="475" y="0" key="CommitChangelistDialog2" timestamp="1604254916068">
+    <state x="437" y="71" key="#palandrome/0.0.1440.900@0.0.1440.900" timestamp="1606163966541" />
+    <state x="435" y="74" key="#primeNumber" timestamp="1606198305844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="475" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604254916068" />
+    <state x="435" y="74" key="#primeNumber/0.0.1440.900@0.0.1440.900" timestamp="1606198305844" />
+    <state x="437" y="71" key="#prime_factors" timestamp="1606159537536">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="71" key="#prime_factors/0.0.1440.900@0.0.1440.900" timestamp="1606159537536" />
+    <state x="475" y="0" key="CommitChangelistDialog2" timestamp="1604257784366">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="475" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604257784366" />
     <state x="475" y="222" key="EnvironmentVariablesDialog" timestamp="1604257293249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="475" y="222" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604257293249" />
-    <state width="1419" height="246" key="GridCell.Tab.0.bottom" timestamp="1604257591085">
+    <state width="1419" height="269" key="GridCell.Tab.0.bottom" timestamp="1606219455129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604257591085" />
+    <state width="1419" height="269" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606219455129" />
     <state width="1419" height="234" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604220942179" />
-    <state width="1419" height="246" key="GridCell.Tab.0.center" timestamp="1604257591084">
+    <state width="1419" height="269" key="GridCell.Tab.0.center" timestamp="1606219455126">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="246" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604257591084" />
+    <state width="1419" height="269" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606219455126" />
     <state width="1419" height="234" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604220942178" />
-    <state width="1419" height="246" key="GridCell.Tab.0.left" timestamp="1604257591084">
+    <state width="1419" height="269" key="GridCell.Tab.0.left" timestamp="1606219455125">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="246" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604257591084" />
+    <state width="1419" height="269" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606219455125" />
     <state width="1419" height="234" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604220942178" />
-    <state width="1419" height="246" key="GridCell.Tab.0.right" timestamp="1604257591084">
+    <state width="1419" height="269" key="GridCell.Tab.0.right" timestamp="1606219455127">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="246" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604257591084" />
+    <state width="1419" height="269" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606219455127" />
     <state width="1419" height="234" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604220942179" />
-    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1599885472455">
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1606201938343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599885472455" />
-    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1599885472453">
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606201938343" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1606201938342">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1599885472453" />
-    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1599885472452">
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606201938342" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1606201938341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1599885472452" />
-    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1599885472454">
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606201938341" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1606201938343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1599885472454" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604254927437">
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606201938343" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1606218735747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604254927437" />
-    <state x="390" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1604230980557">
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606218735747" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604257792663">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="390" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1604230980557" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604257792663" />
+    <state x="390" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1606218716365">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="390" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1606218716365" />
     <state x="442" y="190" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604206421817">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="442" y="190" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1604206421817" />
-    <state x="329" y="29" width="782" height="825" key="find.popup" timestamp="1596445560615">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="329" y="29" width="782" height="825" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596445560615" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1596367355563">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596367355563" />
   </component>
 </project>
